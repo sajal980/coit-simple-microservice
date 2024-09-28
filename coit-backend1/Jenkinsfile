@@ -16,7 +16,7 @@ pipeline {
         stage('docker-push') {
             steps {
                 sh 'echo "pushing docker image"'
-               #sh 'docker push amol1996/coit-backend1-173727:v7'
+               //sh 'docker push amol1996/coit-backend1-173727:v7'
             }
     }
 }
