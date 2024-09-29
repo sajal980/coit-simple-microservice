@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                sh 'cd coit-frontend && docker build -t amol1996/coit-backend1-48843:v1 -f Dockerfile-Multistage .'
+                sh 'cd coit-frontend && docker build -t amol1996/coit-backend1-48843:v1 -f Dockerfile-multistage .'
             }
         }
         stage("Docker Push"){
