@@ -45,14 +45,14 @@
 	</build>
 	<distributionManagement>
 		<repository>
-			<id>coit-app-release</id>
-			<name>coit-app-release</name>
-			<url>http://3.86.252.117:8081/repository/coit-app-release/</url>
+			<id>coit-backend-release</id>
+			<name>coit-backend-release</name>
+			<url>http://54.211.84.85:8081/repository/coit-backend-release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>coit-app-snapshot</id>
-			<name>coit-app-snapshot</name>
-			<url>http://3.86.252.117:8081/repository/coit-app-snapshot/</url>
+			<id>coit-backend-snapshot</id>
+			<name>coit-backend-snapshot</name>
+			<url>http://54.211.84.85:8081/repository/coit-backend-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
